@@ -1,0 +1,66 @@
+\documentclass[12pt]{article}
+%Here we set the font and specify the type of the document which is article in this case
+\usepackage{blindtext}
+\usepackage{multicol}
+%Importing packages
+\renewcommand{\theenumi}{\alph{enumi}}
+%This sets sub lists to use letters instead of numbers
+\setlength{\columnsep}{1cm}
+\title{Network Security and Preventive Measures in the Age of Big data}
+\author{Forrest Bankston, William Kane}
+\date{December 2021}
+
+\begin{document}
+\maketitle
+
+\begin{multicols}{2}
+%Multi-column text starts here
+
+\begin{abstract}
+\textbf {\blindtext}
+%\textbf can be used to make text bold
+\end{abstract}
+
+\section{Introduction}
+%Begin the first section here - introduction
+
+\blindtext\blindtext
+%The \blindtext command will just import some dummy text to use since we imported the blindtext package
+
+\section{History and Background}
+
+\blindtext\blindtext
+
+\section{Big Data Attacks/Detection Mechanisms}
+\begin{enumerate}
+%Begin the enumerated list(a, b, c)
+\item \emph{First Example}
+%\emph can be used to italicize text
+
+\blindtext
+\item \emph{Second Example}
+
+\blindtext
+\item \emph{Third example}
+
+\end{enumerate}
+%End the enumerated list
+
+\section{Standard Prevention Mechanisms}
+
+\blindtext\blindtext
+
+\section{Models}
+
+\blindtext\blindtext
+
+\section{Conclusion}
+
+\blindtext\blindtext
+
+\section{References}
+
+\blindtext\blindtext
+\end{multicols}
+
+\end{document}
